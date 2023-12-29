@@ -1,10 +1,10 @@
 
 import { Outlet } from 'react-router-dom'
 
-function Layout() {
+function Main() {
   return (
     <Outlet></Outlet>
   )
 }
 
-export default Layout
+export default Main
