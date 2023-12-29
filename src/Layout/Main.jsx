@@ -1,9 +1,15 @@
 
 import { Outlet } from 'react-router-dom'
+import Footer from '../Shared/Footer/Footer'
 
 function Main() {
   return (
-    <Outlet></Outlet>
+    <div>
+      <Outlet></Outlet>
+      <Footer></Footer>
+    </div>
+    
+
   )
 }
 
