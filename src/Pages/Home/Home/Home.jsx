@@ -8,7 +8,7 @@ import ContuctUs from '../ContuctUs/ContuctUs'
 
 function Home() {
   return (
-      <div>
+      <div className="w-full">
      <Banner></Banner>
      <OurService></OurService>
       <Contuct></Contuct>

@@ -67,7 +67,7 @@ const ContuctUs = () => {
                 <div className='mt-10 space-y-5'>
                     <div className='flex items-center'>
                         <FaPhoneVolume className="w-[30px] h-[30px] text-white relative mr-5" />
-                        <p className="text-white text-base font-normal leading-relaxed">+88 01750 14 14 14</p>
+                        <p className="text-white text-base font-normal leading-relaxed">+88 01876864289</p>
                     </div>
                     <div className='flex items-center'>
                         <IoLocationOutline className='w-[30px] h-[30px] text-white mr-5' />
