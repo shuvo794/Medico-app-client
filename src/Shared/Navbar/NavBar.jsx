@@ -35,7 +35,7 @@ const NavBar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">LOGIN</a>
+    <Link to="/login"><a className="btn">LOGIN</a></Link>
   </div>
 </div>
   )
