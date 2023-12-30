@@ -25,7 +25,7 @@ function LogIn() {
         <div className="form-control mt-6">
           <button className="btn btn-primary">Login</button>
             </div>
-            <p>Have a Acount?<Link to="signUp">Please create Acount</Link></p>
+            <p>Have a Acount?<Link to="/signUp">Please create Acount</Link></p>
           </form>
     </div>
     <div className="card w-1/2 ">
