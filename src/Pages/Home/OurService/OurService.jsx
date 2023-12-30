@@ -3,8 +3,8 @@ import Tab from '../Tab/Tab';
 
 function OurService() {
   return (
-     <div className='container mx-auto my-28 p-2 flex flex-col md:flex-row justify-center items-center'>
-            <div className='md:w-1/2 w-full '>
+     <div data-aos="zoom-out-right"  className='container mx-auto my-28 p-2 flex flex-col md:flex-row justify-center items-center'>
+            <div  className='md:w-1/2 w-full '>
                 <img src={doc} alt="" />
             </div>
             <div className='md:w-1/2 w-full ml-2'>

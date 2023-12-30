@@ -8,7 +8,9 @@ import ContuctUs from '../ContuctUs/ContuctUs'
 
 function Home() {
   return (
-      <div className="w-full">
+      <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"  className="w-full ">
      <Banner></Banner>
      <OurService></OurService>
       <Contuct></Contuct>
