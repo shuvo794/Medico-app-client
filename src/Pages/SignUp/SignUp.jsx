@@ -9,7 +9,12 @@ function SignUp() {
   <div className="hero-content flex-col lg:flex-row-reverse">
     <div className="w-1/2 shrink-0  max-w-sm shadow-2xl bg-base-100">
                   <form className="card-body">
-                     
+               <div className="form-control">
+          <label className="label">
+            <span className="label-text">Name</span>
+          </label>
+          <input type="text" placeholder="Type Your Name" name='name' className="input input-bordered" required />
+        </div>       
         <div className="form-control">
           <label className="label">
             <span className="label-text">Email</span>
