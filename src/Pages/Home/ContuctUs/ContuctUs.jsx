@@ -60,7 +60,7 @@ const ContuctUs = () => {
     }
 
     return (
-        <div className='container mx-auto my-20 bg-teal-950 md:rounded-[10px] px-5 py-20 md:p-20 flex flex-col md:flex-row'>
+        <div data-aos="zoom-out-right"  className='container mx-auto my-20 bg-teal-950 md:rounded-[10px] px-5 py-20 md:p-20 flex flex-col md:flex-row'>
             <div className='md:w-5/12'>
                 <div className="text-white text-[40px] font-bold">Contact With Us</div>
                 <div className=" text-white text-base font-normal leading-relaxed">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi.</div>

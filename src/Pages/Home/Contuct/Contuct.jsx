@@ -2,7 +2,7 @@ import { FaRegClock, FaPhoneVolume } from "react-icons/fa";
 import { MdAddLocation } from "react-icons/md";
 const Contuct = () => {
     return (
-        <div className="container mx-auto my-28 flex  flex-wrap flex-col gap-8 md:flex-row justify-between text-white">
+        <div data-aos="zoom-out-right" className="container mx-auto my-28 flex  flex-wrap flex-col gap-8 md:flex-row justify-between text-white">
             <div className="md:w-1/3 mx-2 py-4 md:py-0 h-[202px] flex-1 bg-teal-950 rounded-[10px] flex justify-center items-center gap-8" >
                 <div><FaRegClock className="w-[50px] h-[50px] relative" /></div>
                 <div className="space-y-4">

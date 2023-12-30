@@ -41,7 +41,7 @@ const Doctors = () => {
         };
     }, []);
     return (
-        <div data-aos="zoom-in" className='container mx-auto px-2  py-10'>
+        <div data-aos="zoom-out-right" className='container mx-auto px-2  py-10'>
             <div className='text-center container flex justify-center items-center flex-col mx-auto mb-10'>
                 <h3 className=' text-neutral-950 text-[40px] font-bold'>What Our Patients Says</h3>
                 <p className=' text-neutral-700 w-[70%] text-base font-normal leading-relaxed'>Sed ut ooloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>

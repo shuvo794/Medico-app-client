@@ -5,7 +5,7 @@ import NavBar from '../Shared/Navbar/NavBar'
 
 function Main() {
   return (
-    <div>
+    <div data-aos="zoom-out-right">
       <NavBar></NavBar>
       <Outlet></Outlet>
       <Footer></Footer>
