@@ -10,11 +10,14 @@ function AuthProvider({ children }) {
     const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    onAuthStateChanged(auth, currentUser => {
+   const unSubcuribe= onAuthStateChanged(auth, currentUser => {
       setuser(currentUser);
       console.log('currentUser', currentUser);
       setLoading(false);
-    })
+    });
+    return () => {
+      return unSubcuribe();
+    }
   },[])
   
     const appInfo = {
