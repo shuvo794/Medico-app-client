@@ -8,13 +8,13 @@ import ContuctUs from '../ContuctUs/ContuctUs'
 
 function Home() {
   return (
-      <div  className="w-full max-w-screen-xl mx-auto">
+      <div  className="w-full ">
      <Banner></Banner>
      <OurService></OurService>
-      {/* <Contuct></Contuct>
+      <Contuct></Contuct>
       <Reviews></Reviews>
       <Doctors></Doctors>
-      <ContuctUs></ContuctUs> */}
+      <ContuctUs></ContuctUs>
       
     </div>
   )
