@@ -8,15 +8,13 @@ import ContuctUs from '../ContuctUs/ContuctUs'
 
 function Home() {
   return (
-      <div data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine"  className="w-full ">
+      <div  className="w-full max-w-screen-xl mx-auto">
      <Banner></Banner>
      <OurService></OurService>
-      <Contuct></Contuct>
+      {/* <Contuct></Contuct>
       <Reviews></Reviews>
       <Doctors></Doctors>
-      <ContuctUs></ContuctUs>
+      <ContuctUs></ContuctUs> */}
       
     </div>
   )

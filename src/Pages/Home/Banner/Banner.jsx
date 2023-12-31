@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 function Banner() {
   return (
 
-      <div className="relative h-screen z-0 bg-[#34495e]">
+      <div data-aos="zoom-out-right" className="relative h-screen z-0 bg-[#34495e] w-full">
 
             <div className='text-[#F3F3F3] container mx-auto flex flex-col items-center md:flex-row '>
                 <div className='my-20 md:mt-32 md:w-1/2 flex flex-col items-center text-center '>
