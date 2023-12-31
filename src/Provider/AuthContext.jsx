@@ -2,9 +2,11 @@ import { createContext } from "react"
 
 const AuthContext = createContext(null);
 
-function AuthContext() {
+function AuthContext({children}) {
   return (
-    <div>AuthContext</div>
+      <AuthContext.Provider>
+          {children}
+    </AuthContext.Provider>
   )
 }
 
