@@ -1,14 +1,14 @@
 import { useForm } from 'react-hook-form';
-import img from '../../../assets/login.png';
-import frame from '../../../assets/Frame-1.png';
+import img from '../../assets/login.png';
+import frame from '../../assets/Frame-1.png';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { FaGoogle, FaGithub } from "react-icons/fa";
-import useAuth from '../../../hooks/useAuth';
+import useAuth from '../../hooks/useAuth';
 import Swal from 'sweetalert2';
 
-function LogIn() {
-const { register, handleSubmit, reset, formState: { errors }, } = useForm()
+const SignIn = () => {
+    const { register, handleSubmit, reset, formState: { errors }, } = useForm()
     const { login } = useAuth();
     const navigate = useNavigate();
     const location = useLocation();
@@ -75,7 +75,6 @@ const { register, handleSubmit, reset, formState: { errors }, } = useForm()
             </div>
         </div>
     );
+};
 
-}
-
-export default LogIn
+export default SignIn;

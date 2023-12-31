@@ -1,18 +1,25 @@
+import Footer from "../components/Footer/Footer";
+import NavBar from "../components/NavBar/NavBar";
+import { Outlet, useLocation } from 'react-router-dom';
+import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 
-import { Outlet } from 'react-router-dom'
-import Footer from '../Shared/Footer/Footer'
-import NavBar from '../Shared/Navbar/NavBar'
+const Main = () => {
+    const location = useLocation();
 
-function Main() {
-  return (
-    <div >
-      <NavBar></NavBar>
-      <Outlet></Outlet>
-      <Footer></Footer>
-    </div>
-    
+    const noHeaderFooter = location.pathname.includes('signin') || location.pathname.includes('signUp')
+    return (
+        <div>
+            {
+                noHeaderFooter || <NavBar></NavBar>
+            }
 
-  )
-}
+            <Outlet></Outlet>
+            {
+                noHeaderFooter || <Footer></Footer>
+            }
+            <ScrollToTop></ScrollToTop>
+        </div>
+    );
+};
 
-export default Main
+export default Main;
