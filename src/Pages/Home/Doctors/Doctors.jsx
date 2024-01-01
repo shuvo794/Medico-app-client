@@ -162,7 +162,7 @@ const Doctors = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className='my-10'>
-                    <div className="flex flex-col justify-between  p-3 bg-white rounded-[10px] border border-neutral-200">
+                    <div data-aos="zoom-in" className="flex flex-col justify-between  p-3 bg-white rounded-[10px] border border-neutral-200">
                         <img className='w-full' src={doc3} alt="" />
                         <h3 className="text-neutral-700 text-xl font-bold  leading-relaxed">Pepe Sylvia</h3>
                         <div className="text-neutral-500 text-base font-normal  leading-relaxed">BTP -  Senior Physiotherapist</div>
@@ -189,7 +189,7 @@ const Doctors = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className='my-10'>
-                    <div data-aos="zoom-in" className="flex flex-col justify-between  p-3 bg-white rounded-[10px] border border-neutral-200">
+                    <div  data-aos="zoom-in"  className="flex flex-col justify-between  p-3 bg-white rounded-[10px] border border-neutral-200">
                         <img className='w-full' src={doc2} alt="" />
                         <h3 className="text-neutral-700 text-xl font-bold  leading-relaxed">Rusty Shackleford</h3>
                         <div className="text-neutral-500 text-base font-normal  leading-relaxed">BTP -  Senior Physiotherapist</div>

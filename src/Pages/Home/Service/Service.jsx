@@ -4,7 +4,7 @@ import Tab from '../Tab/Tab';
 
 const Service = () => {
     return (
-        <div  className='container mx-auto my-28 p-2 flex flex-col md:flex-row justify-center items-center'>
+        <div data-aos="zoom-in"  className='container mx-auto my-28 p-2 flex flex-col md:flex-row justify-center items-center'>
             <div className='md:w-1/2 w-full '>
                 <img src={doc} alt="" />
             </div>
