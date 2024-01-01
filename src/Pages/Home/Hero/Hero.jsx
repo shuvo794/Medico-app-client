@@ -7,7 +7,7 @@ import frame from '../../../assets/Frame-1.png';
 
 const Hero = () => {
     return (
-        <div className="relative h-screen z-0 bg-[#34495e]">
+        <div  data-aos="fade-right" className="relative h-screen z-0 bg-[#34495e]">
 
             <div className='text-[#F3F3F3] container mx-auto flex flex-col items-center md:flex-row '>
                 <div className='my-20 md:mt-32 md:w-1/2 flex flex-col items-center text-center'>

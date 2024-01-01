@@ -20,7 +20,7 @@ const NavBar = () => {
         });
     };
     return (
-        <nav className="bg-[#34495e] z-10 relative h-16 md:h-20 flex justify-center">
+        <nav  className="bg-[#34495e] z-10 relative h-16 md:h-20 flex justify-center">
             <div className='flex justify-between items-center container mx-auto'>
                 <img className='h-10' src={logo} alt="" />
 
