@@ -2,7 +2,7 @@ import img from '../../assets/footerlogo.png';
 
 const Footer = () => {
     return (
-        <div className='bg-zinc-100 py-16'>
+        <div data-aos="zoom-in" className='bg-zinc-100 py-16'>
             <div className="my-8 text-center flex flex-col md:flex-row container justify-between mx-auto ">
                 <div className=" md:w-1/3 flex flex-col md:flex-row justify-between items-center">
                     <div className='flex flex-col items-center'>
