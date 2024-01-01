@@ -49,7 +49,7 @@ const Reviews = () => {
                 className="mySwiper "
             >
                 <SwiperSlide className='my-10'>
-                    <div className="  bg-white rounded-[10px] border border-neutral-200 flex flex-col justify-center gap-8 p-10">
+                    <div data-aos="zoom-in" className="  bg-white rounded-[10px] border border-neutral-200 flex flex-col justify-center gap-8 p-10">
                         <div className='flex justify-between'>
                             <div className='flex justify-between items-center'>
                                 <img src={img1} alt="" />
@@ -71,7 +71,7 @@ const Reviews = () => {
                 </SwiperSlide>
 
                 <SwiperSlide className='my-10'>
-                    <div className="  bg-white rounded-[10px] border border-neutral-200 flex flex-col justify-center gap-8 p-10">
+                    <div data-aos="zoom-in" className="  bg-white rounded-[10px] border border-neutral-200 flex flex-col justify-center gap-8 p-10">
                         <div className='flex justify-between'>
                             <div className='flex justify-between items-center'>
                                 <img src={img1} alt="" />
@@ -93,7 +93,7 @@ const Reviews = () => {
 
 
                 <SwiperSlide className='my-10'>
-                    <div className="  bg-white rounded-[10px] border border-neutral-200 flex flex-col justify-center gap-8 p-10">
+                    <div data-aos="zoom-in" className="  bg-white rounded-[10px] border border-neutral-200 flex flex-col justify-center gap-8 p-10">
                         <div className='flex justify-between'>
                             <div className='flex justify-between items-center'>
                                 <img src={img1} alt="" />
@@ -114,7 +114,7 @@ const Reviews = () => {
                 </SwiperSlide>
 
                 <SwiperSlide className='my-10'>
-                    <div className="  bg-white rounded-[10px] border border-neutral-200 flex flex-col justify-center gap-8 p-10">
+                    <div data-aos="zoom-in" className="  bg-white rounded-[10px] border border-neutral-200 flex flex-col justify-center gap-8 p-10">
                         <div className='flex justify-between'>
                             <div className='flex justify-between items-center'>
                                 <img src={img1} alt="" />
